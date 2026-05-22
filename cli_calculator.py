@@ -12,9 +12,13 @@ print("4. Divide")
 choice = input("Enter your choice (1-4): ")
 
 #Taking input numbers from users
+try:
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
 
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+except ValueError:
+    print("Invalid input! Please enter numbers.")
+    exit()
 
 if choice == "1":
     print("Result:", add(num1, num2))
