@@ -59,6 +59,24 @@ python gui_calculator.py
 * Exception handling
 * Git and GitHub workflow
 
+##  Screenshots
+
+### Mutliplication operation
+
+![Home Screen](images/multiplication_operation.png)
+
+### Successful Calculation
+
+![Calculation](images/result1.png)
+
+### Divide by Zero Error
+
+![Error](images/error_handling.png)
+
+### Error message Disply
+
+![Error Handling](images/result2.png)
+
 ## Author
 
 Navya
